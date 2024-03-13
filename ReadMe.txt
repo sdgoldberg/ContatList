@@ -3,7 +3,10 @@ Contact List
 Summer 2020
 
 Summary:
-This is a fully functional contact list which enables users to keep track of favorite and recently accessed contacts. This was developed to be a networking tool to remember mutual connections between contacts. The program reads contacts from an input file in CSV format and allows users to input pictures for each contact. Clicking the star in the top corner of the contact adds the contact to the Favorites list and changes the star from a black/white star to a yellow-filled-in star. Selecting a specific contact brings the user to a more in-depth contact profile with notes and other information on the contact. Selecting favorites from the drop-down menu opens a new favorite-only screen. Selecting recent opens a screen with recently selected contacts.
+This is a fully functional contact list which enables users to keep track of favorite and recently accessed contacts. This was developed to be a networking tool to remember mutual connections between contacts. 
+The program reads contacts from an input file in CSV format and allows users to input pictures for each contact. Clicking the star in the top corner of the contact adds the contact to the Favorites list and changes the star 
+from a black/white star to a yellow-filled-in star. Selecting a specific contact brings the user to a more in-depth contact profile with notes and other information on the contact. Selecting favorites from the drop-down menu 
+opens a new favorite-only screen. Selecting recent opens a screen with recently selected contacts.
 
 Each line in the CSV must have one of the following formats
 	1. lastName, firstName, phoneNumber
