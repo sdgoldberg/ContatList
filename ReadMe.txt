@@ -1,7 +1,11 @@
 README
 Contact List
 Summer 2020
-Other notes or comments to the grader: Each line in the CSV must have one of the following formats
+
+Summary:
+This is a fully functional contact list which enables users to keep track of favorite and recently accessed contacts. This was developed to be a networking tool to remember mutual connections between contacts. The program reads contacts from an input file in CSV format and allows users to input pictures for each contact. Clicking the star in the top corner of the contact adds the contact to the Favorites list and changes the star from a black/white star to a yellow-filled-in star. Selecting a specific contact brings the user to a more in-depth contact profile with notes and other information on the contact. Selecting favorites from the drop-down menu opens a new favorite-only screen. Selecting recent opens a screen with recently selected contacts.
+
+Each line in the CSV must have one of the following formats
 	1. lastName, firstName, phoneNumber
 	2. lastName, firstName, phoneNumber, pictures/photoName (all images must be placed inside the pictures folder and be typed into the cvs in this format)
 
@@ -10,7 +14,6 @@ The program does not yet add or remove contacts from the source file yet. The in
 Input files must be inside the project folder but not inside the application folder.
 
 Bug Report
-I was unable to make the program write back to the input file. 
 When clicking on a star from the recents list, the corresponding ContactShallow object in the main contacts section will not update the star until the contact is clicked in the main contacts section.
 
 Future Works
